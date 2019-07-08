@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #cec9c6;
+    margin: 0px 10px;
+    font-family: 'Dosis', sans-serif;
+    margin: 0px 10px 30px 10px;
+}
+
+section>div:nth-child(-n+2) {
+    background-color: rgb(253, 207, 192);
+    text-align: center;
+    color: rgb(124 120 121);
+}
+
+section div {
+    border: 1px solid rgb(223 223 223);
+    padding: 6px 8px;
+    background-color: rgb(255 255 255);
+}
+
+section>div:nth-child(2n+4) {
+    text-align: right;
+    padding-right: 10px;
+}
+
+section>div:nth-last-child(-n+2) {
+    font-weight: bold;
+}
+
+.title {
+    color: rgb(94, 93, 93);
+    margin: 5px 11px;
+    font-weight: bold;
+}
