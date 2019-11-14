@@ -31,10 +31,6 @@ section>div:nth-child(2n+4) {
     padding-right: 10px;
 }
 
-section>div:nth-last-child(-n+2) {
-    font-weight: bold;
-}
-
 .title {
     color: rgb(94, 93, 93);
     margin: 5px 11px;
